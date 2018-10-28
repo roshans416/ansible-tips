@@ -5,8 +5,6 @@ This playbook can be used for the following
 1) Update the kernel for the server
 2) Create an LVM volume on /dev/sdb with 80% VG size being used.
 3) Create an XFS filesystem on LVM and mount it to /apps/testing
-4) Permanently disable ipv6
-5) Manages sshd_config for RHEL and CentOS
 
 **It's using password authentication to connect to client VMs. Password (SUDO and SSH) are stored in passwd.yml, which is encrypted using ansible-vault**
 
