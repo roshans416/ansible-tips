@@ -49,13 +49,13 @@ lvm_name: testLVM            (Name of LVM)
  
 mount_point: /apps/testing   (Location to whcih the LVM should be mounted)
 
-sshd:
-  port: 22022                (SSH port number. Remove this line to fall back to defaiult 22)
-  root_login: yes            (Allow SSH root login. Default is to deny. Delete this line to fall back to default) 
-  pub_key_auth: yes          (Allow SSH PublicKey auth. Default is to deny. Delete this line to fall back to default)
-  password_auth: yes         (Allow password authentication. Default is to deny. Delete this line to fall back to default)
-  use_dns: yes               (Allow hostname resolving)
-  use_pam: yes               (Allow PAM)
+#sshd:
+#  port: 22022                (SSH port number. Remove this line to fall back to defaiult 22)
+#  root_login: yes            (Allow SSH root login. Default is to deny. Delete this line to fall back to default) 
+#  pub_key_auth: yes          (Allow SSH PublicKey auth. Default is to deny. Delete this line to fall back to default)
+#  password_auth: yes         (Allow password authentication. Default is to deny. Delete this line to fall back to default)
+#  use_dns: yes               (Allow hostname resolving)
+#  use_pam: yes               (Allow PAM)
 ```
 
 ## How to execute ?
