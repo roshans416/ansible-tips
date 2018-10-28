@@ -1,0 +1,11 @@
+- hosts: all
+  
+  vars_files:
+    - config.yml
+
+#  pre_tasks:
+
+
+  roles:
+    - ansible_role_update_kernel
+    - ansible_role_create_lvm_partition 

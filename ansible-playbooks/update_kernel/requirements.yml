@@ -1,3 +1,0 @@
-- name: update_kernel
-  src: https://github.com/roshans416/update_kernel.git
-  version: v0.2

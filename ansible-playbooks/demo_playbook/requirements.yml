@@ -1,0 +1,7 @@
+- name: ansible_role_update_kernel
+  src: https://github.com/roshans416/ansible_role_update_kernel.git
+  version: master
+
+- name: ansible_role_create_lvm_partition
+  src: https://github.com/roshans416/ansible_role_create_lvm_partition.git
+  version: master
