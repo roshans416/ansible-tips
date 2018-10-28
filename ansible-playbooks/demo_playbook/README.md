@@ -10,7 +10,7 @@ This playbook can be used for the following
 
 **It's using password authentication to connect to client VMs. Password (SUDO and SSH) are stored in passwd.yml, which is encrypted using ansible-vault**
 
-**update_kernel role can be found under https://github.com/roshans416/update_kernel**
+**update_kernel playbook can found under https://github.com/roshans416/update_kernel**
 
 To create password vault
 
