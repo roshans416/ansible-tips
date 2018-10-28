@@ -1,0 +1,11 @@
+[all:vars]
+#modify this values accordingly
+ansible_user=roshan
+ansible_port=22
+ansible_become=yes
+ansible_become_method=sudo
+ansible_ssh_pass='{{ my_cluser_sudo_pass }}'
+ansible_become_pass='{{ my_cluser_sudo_pass }}'
+[all]
+192.168.94.74
+192.168.94.72
